@@ -1,10 +1,10 @@
 <template>
-      <p>Header component</p>
+      <p>{{ name }}</p>
 </template>
 
 <script>
     export default {
-        name: "header"
+        name: 'header'
     }
 </script>
 
