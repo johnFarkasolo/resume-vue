@@ -30,10 +30,11 @@
 		width: 100%;
 		background: linear-gradient(240deg, #f5925d, #361c83);
 	}
+
 	#projects {
 		height: 100vh;
 		width: 100%;
-		background: linear-gradient(240deg, #78139e, #2f0ba8);
+		background: linear-gradient(230deg, #78139e, #2f0ba8);
 	}
 	#contacts {
 		height: 100vh;
