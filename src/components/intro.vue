@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: 'it Header',
+        name: 'it Intro',
     }
 </script>
 
