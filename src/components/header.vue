@@ -14,26 +14,27 @@
 	width: 100%;
 	background-image: url('../assets/canvas.png');
 	background-size: cover;
-	animation: animatedBackground 3s linear infinite;
-	-moz-animation: animatedBackground 3s linear infinite;
-	-webkit-animation: animatedBackground 3s linear infinite;
- 	-o-animation: animatedBackground 3s linear infinite;
+	background: linear-gradient(319deg, #bc00ff, #4c0fcc);
+	background-size: 400% 400%;
+
+-webkit-animation: AnimationName 5s ease infinite;
+-moz-animation: AnimationName 5s ease infinite;
+animation: AnimationName 5s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+ @-webkit-keyframes AnimationName {
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:87% 0%}
+    50%{background-position:14% 100%}
+    100%{background-position:87% 0%}
 }
-
 </style>
