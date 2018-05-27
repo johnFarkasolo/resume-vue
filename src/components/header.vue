@@ -10,24 +10,30 @@
 
 <style scoped>
 #backGround{
-	height: 400px;
-	width:100%;
+	height: 100vh;
+	width: 100%;
 	background-image: url('../assets/canvas.png');
 	background-size: cover;
-	animation: animatedBackground 60s linear infinite;
-	-moz-animation: animatedBackground 60s linear infinite;
-	-webkit-animation: animatedBackground 60s linear infinite;
- 	-o-animation: animatedBackground 60s linear infinite;
+	animation: animatedBackground 3s linear infinite;
+	-moz-animation: animatedBackground 3s linear infinite;
+	-webkit-animation: animatedBackground 3s linear infinite;
+ 	-o-animation: animatedBackground 3s linear infinite;
 }
 
-@keyframes animatedBackground {
-    0 {
-        background-position: 0 0
-    }
-    100% {
-        background-position: -600px 600px
-    }
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
-
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 
 </style>
