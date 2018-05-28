@@ -30,9 +30,10 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '../styles/variables';
   * {
-    color: cornsilk;
+    color: $main-color;
   }
 
   .intro-body {
@@ -62,11 +63,10 @@
     position: fixed;
     box-sizing: border-box;
     z-index: 999;
-  }
-
-  .intro-logo img {
-    width: 50px;
-    background: transparent;
+    img {
+      width: 50px;
+      background: transparent;
+    }
   }
 
   #photo > img {

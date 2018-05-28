@@ -79,9 +79,11 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  @import '../styles/variables';
+
   * {
-    color: cornsilk;
+    color: $main-color;
   }
 
   #skills {
