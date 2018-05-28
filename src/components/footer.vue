@@ -1,5 +1,7 @@
 <template>
-   
+		<parallax>
+			<div class="footer-body"></div>
+		</parallax>
 </template>
 
 <script>
@@ -9,5 +11,10 @@
 </script>
 
 <style scoped>
-
+	.footer-body {
+		height: 100vh;
+		width: 100%;
+		background: linear-gradient(240deg, #03595c, #210b5d);
+	}
+	
 </style>

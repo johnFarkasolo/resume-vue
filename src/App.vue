@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Intro></Intro>
-    <Main></Main>
-    <Footer></Footer>
+		<Intro></Intro>
+		<Main></Main>
+		<Footer></Footer>
     <router-view/>
   </div>
 </template>
@@ -10,17 +10,20 @@
 <script>
   import Intro from './components/intro';
   import Footer from './components/footer';
-  import Main from './components/main';
-export default {
-  name: 'App',
-  components: {Intro, Main, Footer}
-}
+	import Main from './components/main';
+	import Parallax from 'vue-parallaxy'
+	export default {
+		name: 'App',
+		components: {Intro, Main, Footer, Parallax}
+	}
+
 </script>
 
 <style>
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
