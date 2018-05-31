@@ -2,6 +2,7 @@
   <div class="main-body">
     <parallax>
       <div id="skills">
+				<img src="assets/img/1.jpg" alt="">
         <h1>
           Skills
         </h1>

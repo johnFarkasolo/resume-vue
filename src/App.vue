@@ -8,25 +8,23 @@
 </template>
 
 <script>
-  import Intro from './components/intro';
-  import Footer from './components/footer';
-  import Main from './components/main';
-  import Parallax from 'vue-parallaxy'
+  import Intro from './components/intro'
+  import Footer from './components/footer'
+  import Main from './components/main'
 
   export default {
     name: 'App',
-    components: {Intro, Main, Footer, Parallax}
+    components: {Intro, Main, Footer}
   }
 
 </script>
 
 <style lang="scss">
-  @import './styles/variables';
 
   body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
   }
 
   #app {
